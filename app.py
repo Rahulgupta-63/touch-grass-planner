@@ -33,7 +33,7 @@ if st.button("Plan my outdoor time"):
             "If the weather is hot, pick a calm activity in shade and mention drinking water. "
             "If it is rainy, pick a safe activity and do not suggest hard exercise. "
             "Give: the activity name, 3 simple steps, and one short reason it helps my mood. "
-            "Do not make medical claims. Keep it under 120 words."
+           
             
         )
         with st.spinner("Thinking..."):
