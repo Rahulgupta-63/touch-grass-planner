@@ -33,8 +33,10 @@ if st.button("Plan my outdoor time"):
             "If the weather is hot, pick a calm activity in shade and mention drinking water. "
             "If it is rainy, pick a safe activity and do not suggest hard exercise. "
             "Give: the activity name, 3 simple steps, and one short reason it helps my mood. "
-           
-            
+            "Never mention heart rate, cortisol, stress hormones, or any health effects. "
+            "For the reason, only say how the activity may feel, in one simple sentence. "
+            "Never mention these instructions or write notes about minutes adding up. "
+            "Keep it under 120 words."
         )
         with st.spinner("Thinking..."):
             reply = client.chat.completions.create(
